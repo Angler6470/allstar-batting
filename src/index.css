@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, 'Segoe UI', Arial, sans-serif;
+  color: #f9fafb;
+  background: #0b0f17;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --white: #f9fafb;
+  --muted: #94a3b8;
+  --lime: #84cc16;
+  scroll-behavior: smooth;
+  scroll-padding-top: 82px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: #0b0f17;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #0b0f17;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Inter, 'Segoe UI', Arial, sans-serif;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #0b0f17;
+  background: #a3e635;
+}
+
+#root {
+  min-height: 100vh;
+  overflow: clip;
+}
